@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #161513;
+  color: #ffffff;
+}
+header {
+  background-color: #222222;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+.logo img {
+  width: 188px;
+}
+.navbar {
+  display: flex;
+}
+.navbar div {
+  padding: 30px 20px;
+}
+.navbar a {
+  color: #ffffff;
+}
+.cointainer {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+.cointainer .avatar img {
+  width: 800px;
+}
+.about {
+  text-align: center;
+}
+.about-text {
+  width: 652px;
+  margin: 40px auto;
+}
+.about-text h1 {
+  font-size: 55px;
+  line-height: 1;
+}
+.about-text > h1 span {
+  background: var(
+    --Primary-Gradient,
+    linear-gradient(116deg, #0144ff 71.79%, #ff0101 95.51%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-text p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+.about-btn {
+  margin-top: 40px;
+}
+.btn-primary {
+  width: 195px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 1px solid var(--Primary-Color, #fff);
+  background: linear-gradient(
+      0deg,
+      var(--Primary-Color, #fff) 0%,
+      var(--Primary-Color, #fff) 100%
+    ),
+    var(--Primary-Color, #fff);
+  font-size: 22px;
+  margin-right: 22px;
+}
+.btn-secondary {
+  background: none;
+  border: 2px solid white;
+  width: 204px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  font-size: 22px;
+  color: #fff;
+}
+.experience-with {
+  text-align: center;
+}
+.experience-with h2 {
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.experience-with-lang {
+  display: flex;
+  justify-content: center;
+  width: 156px;
+  margin: 50px auto;
+}
+.experience-with-lang img {
+  width: 101px;
+  cursor: pointer;
+}
+.primary-heading {
+  text-align: center;
+  font-size: 45px;
+}
+.heading-project {
+  background: var(
+    --Orange-Gradient,
+    linear-gradient(180deg, #a5ccff 0%, #0051ff 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.project-item {
+  background-color: #2a2a2a;
+  border-radius: 20px 20px 0 0;
+  margin: 20px;
+}
+.project-item img {
+  width: 92%;
+  margin: 20px;
+  border-radius: 20px 20px 0 0;
+}
+.project-tittle {
+  padding: 20px;
+}
+
+.project-tittle h3 {
+  color: #fff;
+}
+.project-tittle a {
+  text-decoration: none;
+  color: #fff;
+}
+.heading-expirence {
+  background: var(
+    --Blue-Gradient,
+    linear-gradient(180deg, #5badff 0%, #1373d1 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.exprience-items-cointainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.exprience-items-cointainer .date {
+  margin-left: auto;
+}
+.exprience-tittle {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.exprience-items {
+  padding: 30px 0;
+}
+footer {
+  background-color: #191919;
+}
+.cointainer h2 {
+  color: #fff;
+  font-size: 47px;
+}
+footer p {
+  font-size: 18px;
+}
+.email-cointainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.email-cointainer img {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 38px;
+}
+.email-send a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.social-link {
+  display: flex;
+  margin-top: 50px;
+}
+.social-link img {
+  margin-right: 20px;
+  cursor: pointer;
+  width: 38px;
+}
